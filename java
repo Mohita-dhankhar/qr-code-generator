@@ -7,13 +7,7 @@ import com.google.zxing.qrcode.QRCodeWriter;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 
 import java.io.IOException;
-import java.nio.file.FileSystems;
-import java.nio.file.Path;
-import java.util.HashMap;
-import java.util.Map;
-
-public class QRCodeGenerator {
-
+import java.nio.file
     public static void generateQRCode(String text, int width, int height, String filePath)
             throws WriterException, IOException {
 
