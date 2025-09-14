@@ -3,10 +3,7 @@ import com.google.zxing.EncodeHintType;
 import com.google.zxing.WriterException;
 import com.google.zxing.client.j2se.MatrixToImageWriter;
 import com.goog.qrcode.QRCodeWriter;
-import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
-
-import java.io.IOException;
-import java.nio.file
+import com.google.zxing.qr
     public static void generateQRCode(String text, int width, int height, String filePath)
             throws WriterException, IOException {
 
