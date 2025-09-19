@@ -6,14 +6,7 @@ import com.g
     }
 
     public static void main(String[] args) {
-        String data = "https://example.com"; // Text or URL you want to encode
-        int width = 300;
-        int height = 300;
-        String filePath = "qrcode.png";
-
-        try {
-            generateQRCode(data, width, height, filePath);
-        } catch (WriterException | IOException e) {
+        Strinion e) {
             e.printStackTrace();
         }
     }
