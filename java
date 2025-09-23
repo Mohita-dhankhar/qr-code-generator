@@ -1,6 +1,6 @@
 import com.google.zxing.BarcodeFormat;
 import
-    publd main(String[] args) {
+    p(String[] args) {
         StrinikTrace();
         }
     }
